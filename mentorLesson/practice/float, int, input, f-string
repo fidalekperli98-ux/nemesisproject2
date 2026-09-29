@@ -1,0 +1,42 @@
+# KAFEDE HESABAT APARIRIQ     task 1
+#hesab = float(input("hesab: "))
+#nece_nefer = int(input("nece_nefer: "))
+
+#her_kes = hesab /nece_nefer
+#print(f"her kes odeyir: {her_kes} AZN")
+
+
+
+#taxi         task 2
+#kilometr =float(input("kilometr: "))
+#km_qiymeti = float(input ("1 kilometr qiymeti: "))
+
+#odenilecek_mebleg = kilometr *km_qiymeti
+
+#print(f"{odenilecek_mebleg:.2f}")
+
+#ayliq maash                   #task 3
+#saatliq_odenish = float(input("Saatliq odenish: "))
+#saat_sayi = int(input("Saat sayi: "))
+
+#ayliq_maash = saatliq_odenish * saat_sayi
+
+#print(f"Ayliq maash:{ayliq_maash} AZN")
+
+#alish-verish             #task 4
+#alish_qiymeti = float(input("Alish qiymeti: "))
+#verdiyiniz_pul = int(input("Verdiyinzi pul: "))
+
+#qaliq = verdiyiniz_pul - alish_qiymeti
+#print(f"Qaliq: {qaliq} AZN")
+
+#endirim         # task  5
+qiymet = float(input("Qiymet: "))
+endirim = qiymet  * 0.15
+yeni_qiymet = qiymet - endirim
+print(f"Endirim: {endirim} AZN")
+print(f"Yeni qiymet: {yeni_qiymet} AZN")
+
+
+
+
